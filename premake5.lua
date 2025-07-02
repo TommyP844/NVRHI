@@ -47,4 +47,4 @@ project "DirectX-Headers"
 
 
     include "rtxmu"
-    include "DirectX-Headers"
+    include "thirdparty/DirectX-Headers"
