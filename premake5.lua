@@ -27,7 +27,8 @@ project "NVRHI"
     filter "system:windows"
         systemversion "latest"
         defines {
-            "VK_USE_PLATFORM_WIN32_KHR"
+            "VK_USE_PLATFORM_WIN32_KHR",
+            "NOMINMAX"
         }
 
     filter "configurations:Debug"
