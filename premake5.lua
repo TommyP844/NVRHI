@@ -1,4 +1,4 @@
-project "DirectX-Headers"
+project "NVRHI"
     kind "StaticLib"
     language "C++"
     cppdialect "C++20"
