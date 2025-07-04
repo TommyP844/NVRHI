@@ -7,7 +7,7 @@ project "NVRHI"
     targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
     objdir    ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
 
-    VulkanDir = "%{prj.location}/thirdparty/Vulkan-Headers/include"
+    VulkanDir = path.join(os.getcwd(), "thirdparty/Vulkan-Headers/include")
 
     files {
         "include/**.h",
