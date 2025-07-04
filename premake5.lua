@@ -9,8 +9,7 @@ project "NVRHI"
 
     files {
         "include/**.h",
-        "src/**.cpp",
-        "thirdparty/Vulkan-Headers/include/vulkan/vulkan.cppm"
+        "src/**.cpp"
     }
 
     includedirs {
