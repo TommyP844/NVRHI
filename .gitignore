@@ -1,3 +1,6 @@
 build*/
 .vscode/
 nvapi/
+
+NVRHI.vcxproj
+NVRHI.vcxproj.*
